@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Cindy Jiang | Final Project Homepage</title>
+
+    <meta charset="utf-8">
+
+	<meta name="keywords" content="Cindy Jiang, Intern, Introduction, Final Project, ITP 104">
+
+	<meta name="description" content="This page is designed to give everybody a textual and visual introduction of who I am. I'll talk about my hometown Shanghai, my sweetest family, my personal resume, and a portfolio of my journalism work and a YouTube channel I created with my friends. Hope this website can show you different sides of me!">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="main.css">
+
+	
+  </head>
+
+
+    <style>
+    
+        body {
+            background-color: black;
+            margin: 0;
+		}
+
+		#qipao {
+			max-width: 1440px;
+			position: relative;
+			overflow: hidden;
+		}
+		#qipao img {
+			width: 100%;
+            height: auto;
+            display: block;
+		}
+		#text {
+            top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			background-color: rgba(6, 5, 5, 0.6);
+			color: #FFF;
+			font-size: 1.5em;
+            padding-top: 460px;
+            text-align: center;
+			position: absolute;
+            font-family: "Moon Flower Bold", cursive;
+            font-weight: normal;
+			font-size: 2em;
+
+            transform: scale(1);
+			transition: all 1s;
+			opacity: 0;
+		}
+		#qipao a {
+			text-decoration: none;
+			display: block;
+			background-color: rgb(94, 62, 22);
+			color: #FFF;
+			width: 200px;
+			line-height: 80px;
+			text-align: center;
+			position: absolute;
+			bottom: 320px;
+			left: 0px;
+			right: 0px;
+			margin-left: auto;
+			margin-right: auto;
+            font-family: "Moon Flower Bold", cursive;
+            font-weight: normal;
+			font-size: 2em;
+		}
+		
+		#qipao:hover #text {
+			transform: scale(1.8);
+			opacity: 100%;
+		}
+
+		#qipao a {
+			opacity: 0;
+			transition: all 1s;
+		}
+		#qipao:hover a {
+			opacity: 100%;
+			transition: all 500ms ease 500ms;
+		}
+
+		
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="qipao">
+	
+		<img src="img/qipao.png" alt="Cindy Jiang">
+		<div id="text">
+            WELCOME TO CINDY JIANG'S WORLD!
+        </div>  <!-- #text -->
+		<a href="about.html">Enter</a>
+
+	</div> <!-- #qipao -->
+
+</body>
+</html>
